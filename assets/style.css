@@ -9,8 +9,6 @@
 
 /* Universal */
 
-header {
-    background-color: var(--dark);
-    color: var(--light);
+h1 {4
     text-align: center;
 }
