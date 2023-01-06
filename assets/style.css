@@ -8,13 +8,8 @@
 }
 
 /* Universal */
-* {
-    margin: 1px;
-    padding: 2px;
-}
 
 header {
-    font-size: large;
     background-color: var(--dark);
     color: var(--light);
     text-align: center;
