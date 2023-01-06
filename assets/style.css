@@ -1,0 +1,21 @@
+::root {
+    --light: #E5ECFB;
+    --lightMed: #68779B;
+    --med: #8490AB;
+    --medDark: #4D5F8A;
+    --dark: #4D5F8A;
+    --bgDark: #151818;
+}
+
+/* Universal */
+* {
+    margin: 1px;
+    padding: 2px;
+}
+
+header {
+    font-size: large;
+    background-color: var(--dark);
+    color: var(--light);
+    text-align: center;
+}
