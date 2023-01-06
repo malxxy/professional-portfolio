@@ -9,6 +9,22 @@
 
 /* Universal */
 
-h1 {4
+h1 {
     text-align: center;
+}
+
+header {
+    padding-top: 40px;
+}
+
+#flexbox {
+    justify-content: space-between;
+}
+
+button {
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
 }
