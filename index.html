@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/style.css">
     <!-- Google fonts or font awesome -->
-    <title>Malia Yraguen Portfolio</title>
+    <title>Malia Yraguen's Portfolio</title>
 </head>
 <body>
-    <header class="has-background-dark">
-        <h1 class="title is-1 pt-10 has-text-white-ter">Malia Yraguen</h1>
+    <header>
+        <h1 class="title is-1 has-text-dark">Malia Yraguen</h1>
     </header>
     
     <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -43,7 +43,7 @@
                   GitHub
                 </a>
                 <a class="navbar-item" href="./html/social.html">
-                  Social Media Management
+                  Content Creation
                 </a>
                 <a class="navbar-item">
                   Contact
@@ -56,50 +56,82 @@
         </div>
       </nav>
 
-    <main>   
-        <section class="hero is-link is-fullheight-with-navbar">
-            <div class="hero-body">
-                <section class="container">
-                    <section class="about">
-                        <h2 class="title is-2">About</h3>
-                        <h3 class="subtitle is-4 block">Hi, my name is Malia and I am a software engineer and project manager based in San Diego, CA.
-                        </h3>
-                    </section>
-                    <section class="more-about block">
-                        <p>Raised in Portland, Oregon. I studied neuroscience, psychology, and criminal justice
-                            in undergraduate at TCU before finding myself in the research world at HP Inc. 
-                            Worked as a research assistant in psychology and neuroscience.
-                            Research associate at HP Inc.
-                            Research project manager at HP Inc.
-                            UC Berkeley Fullstack Development Bootcamp.
-                            Passionate about climate.
-                            Passionate about technology that delivers change.
-                            Passionate about health and wellness.
-                        </p>
-                        <button class="button is-dark is-medium block">Download my resume</button>
-                    </section>
-                    <section>
-                        <h3 class="title is-2 block">Skills</h3>
-                        <li>
-                            <ul>JavaScript</ul>
-                            <ul>Node js</ul>
-                            <ul>Object Oriented Programming</ul>
-                            <ul>CSS</ul>
-                            <ul>HTML</ul>
-                            <ul>Third-Party APIs</ul>
-                            <ul>MATLAB</ul>
-                            <ul>Python</ul>
-                            <ul>React</ul>
-                        </li>
-                    </section>
+    <main>
+      <section class="hero is-link is-fullheight-with-navbar">
+        <div class="hero-body">
+          <div class="title">
+              <a href="./assets/typeEffect.js" class="typewrite" data-period="1000" 
+          data-type='[ "Fullstack Web Developer.", "Project Manager.", "Content Creator." ]'>
+            <span class="wrap"></span>
+              </a>
+            </div>
+            <div>
+              <button class="button is-medium">Learn more</button>
+            </div>
+        </div>
+      </section>
+      <section id="mainInfo">
+        <section class="hero is-link is-medium">
+            <div class="hero-body holdTiles">
+                <section class="tile is-ancestor">
+                  <div class="tile is-parent p-10">
+                    <div class="tile is-child notification is-8 has-background-light has-text-dark p-10">
+                      <section class="about">
+                          <h2 class="title is-2 has-text-link">About</h3>
+                          <h3 class="subtitle is-4 block has-text-info">Hi, my name is Malia and I am a software developer and project manager based in San Diego, CA.
+                          </h3>
+                      </section>
+                      <section class="more-about block">
+                          <p>Raised in Portland, Oregon.
+                            Malia studied psychology at TCU before entering the workforce
+                            as a research assistant on HP Inc's Omnicept AI team. After being promoted to research project manager, Malia decided
+                            to deepen her knowledge of code. 
+                            UC Berkeley's Fullstack Development Bootcamp pushed Malia to learn essential Skills
+                            in today's web dev industry. 
+                            Malia is passionate about technology that delivers change.
+                          </p>
+                          <button class="button is-dark is-medium block">Download my resume</button>
+                        </section>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="tile is-parent">
+                      <section class="tile is-vertical is-12 is-size-3 notification">                          
+                        <p>Full stack web developer.</p>
+                        <p>Project manager.</p>
+                        <p>Content creator.</p>
+                        <p>Dancer.</p>
+                      </section>
+                    </div>
+                  </div>
                 </section>
             </div>
         </section>
-        
+
+        <section>
+          <section class="hero is-medium">
+            <h3 class="title is-2 block">Skills</h3>
+              <div class="skills-list block">
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>React</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>Bootstrap</li>
+                <li>Bulma</li>
+                <li>Object Oriented Programming</li>
+                <li>Object Relational Mapping</li>
+                <li>DOM traversal</li>
+              </div>
+          </section>
+        </section>
+      </section>
+
         <section class="hero is-light is-fullheight-with-navbar">
+          <h3 class="title is-2">Projects</h3>
             <div class="hero-body">
                 <section id="flexbox" class="projects container is-flex">
-                    <h3 class="title is-2">Projects</h3>
                     <div class="card">
                         <div class="card-image">
                           <figure class="image is-4by3">
@@ -156,9 +188,30 @@
                               </figure>
                             </div>
                             <div class="media-content">
-                              <p class="title is-4">Calendar</p>
-                              <p class="subtitle is-6">Schedule your day with this calendar.</p>
+                              <p class="title is-4">Weather Report</p>
+                              <p class="subtitle is-6">Discover the weather forecast for any city in the world.</p>
                             </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-left">
+                              <figure class="image is-48x48">
+                                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                              </figure>
+                            </div>
+                            <div class="media-content">
+                              <p class="title is-4">Protein Tracker</p>
+                              <p class="subtitle is-6">Scan or search foods to track your protein intake throughout the day.</p>
+                            </div>d
                           </div>
                         </div>
                       </div>
@@ -170,5 +223,6 @@
     <footer></footer>
 
     <script src="./assets/script.js"></script>
+    <script src="./assets/typeEffect.js"></script>
 </body>
 </html>
